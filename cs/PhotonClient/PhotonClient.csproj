@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PhotonClient</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="__Generated">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/__Generated.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusion.Sockets">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Fusion.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/System.Configuration.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

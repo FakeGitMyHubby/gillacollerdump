@@ -1,0 +1,119 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusion.Runtime">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Fusion.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayFab">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/PlayFab.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LIV.LCK">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/LIV.LCK.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Oculus.Platform">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Oculus.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusion.Sockets">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Fusion.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon.Realtime">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Photon.Realtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonVoice">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/PhotonVoice.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonVoice.API">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/PhotonVoice.API.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonClient">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/PhotonClient.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonVoice.Fusion">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/PhotonVoice.Fusion.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusion.Realtime">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Fusion.Realtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusion.Unity">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Fusion.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="__Generated">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/__Generated.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Fusion.Log">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/Fusion.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>../../../GillaVR_Dump/cpp2il_il_recovery/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
